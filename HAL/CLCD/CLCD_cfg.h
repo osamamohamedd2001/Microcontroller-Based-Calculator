@@ -12,23 +12,23 @@
  * 	*/
 #define CLCD_u8RW_CONN_STS		DIO_CONNECTED
 
-#define CLCD_u8CTRL_PORT		DIO_u8PORTB
+#define CLCD_u8CTRL_PORT		DIO_u8PORTD
 
-#define CLCD_u8RS_PIN			DIO_u8PIN2
+#define CLCD_u8RS_PIN			DIO_u8PIN0
 
 #if CLCD_u8RW_CONN_STS == DIO_CONNECTED
 #define CLCD_u8RW_PIN			DIO_u8PIN1
 #endif
 
-#define CLCD_u8E_PIN			DIO_u8PIN0
+#define CLCD_u8E_PIN			DIO_u8PIN2
 
-#define CLCD_u8DATA_PORT		DIO_u8PORTA
+#define CLCD_u8DATA_PORT		DIO_u8PORTC
 
 #if CLCD_u8BIT_MODE == FOUR_BIT
-#define CLCD_u8D4_PIN			DIO_u8PIN3
-#define CLCD_u8D5_PIN			DIO_u8PIN4
-#define CLCD_u8D6_PIN			DIO_u8PIN5
-#define CLCD_u8D7_PIN			DIO_u8PIN6
+#define CLCD_u8D4_PIN			DIO_u8PIN0
+#define CLCD_u8D5_PIN			DIO_u8PIN1
+#define CLCD_u8D6_PIN			DIO_u8PIN2
+#define CLCD_u8D7_PIN			DIO_u8PIN3
 #endif
 
 #endif

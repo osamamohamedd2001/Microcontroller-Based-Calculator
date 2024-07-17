@@ -106,7 +106,7 @@ void CLCD_voidInit(void)
 	/*Clear display*/
 	CLCD_voidSendCmd(1);
 
-	_delay_ms(17);
+	_delay_ms(20);
 
 }
 
